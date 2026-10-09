@@ -7,6 +7,8 @@ public class MaxMinArray {
     public static void main(String[] args) {
         /*
             Brute Force approach
+            Time complexity = O(n log n)
+            Space complexity = O(log n)
          */
 
         /* 
@@ -31,7 +33,7 @@ public class MaxMinArray {
         int min = arr[0];
         int max = arr[0];
 
-        for(int i = 0; i<arr.length; i++){
+        for(int i = 1; i<arr.length; i++){
             if(arr[i]<min){
                 min = arr[i];
             }else if(arr[i]>max){
