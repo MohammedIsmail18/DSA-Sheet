@@ -28,13 +28,13 @@ public class ContainsDuplicateValue {
         /*
         Time complexity is O(n^2) - nested loops
         Space Complexity is O(1) - made changes in the existing value
-        without creating an new variable or array
+        without creating any new variable or array
         */
 
         /*
         Optimal Approach
-        Time Complexity - 
-        Space Complexity - 
+        Time Complexity - O(n) - only one loop
+        Space Complexity - O(n) - set stores all the n values
         */
 
         int[] arr = {2, 4, 5, 3, 2, 1};
