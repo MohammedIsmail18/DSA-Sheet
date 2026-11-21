@@ -57,6 +57,9 @@ public class MaxFrequency {
     */
 
     //Optimal Approach
+    //Time Complexity is O(n) because only one loop and also used HashMap
+    //Space Complexity is O(n) because no extra spaced used the same hashmap used to 
+    //get the result
      static class FrequencyResult{
         int maxElement;
         int maxFrequency;
